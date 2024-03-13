@@ -1,6 +1,6 @@
 # Integrate Stripe Payments with ReactJS and NodeJS
 
-![Made-With-React](https://img.shields.io/badge/Made_with-React-informational?style=for-the-badge&logo=react)![Made-With-NodeJS](https://img.shields.io/badge/Made_with-NodeJS-informational?style=for-the-badge&logo=nodedotjs)![Made-With-Material_UI](https://img.shields.io/badge/Made_with-Tailwind_CSS-informational?style=for-the-badge&logo=tailwindcss)![Made-With-MySQL](https://img.shields.io/badge/Made_with-MySQL-informational?style=for-the-badge&logo=mysql)
+![Made-With-React](https://img.shields.io/badge/Made_with-React-informational?style=for-the-badge&logo=react) ![Made-With-NodeJS](https://img.shields.io/badge/Made_with-NodeJS-informational?style=for-the-badge&logo=nodedotjs) ![Made-With-Material_UI](https://img.shields.io/badge/Made_with-Tailwind_CSS-informational?style=for-the-badge&logo=tailwindcss) ![Made-With-MySQL](https://img.shields.io/badge/Made_with-MySQL-informational?style=for-the-badge&logo=mysql)
 
 ## About
 
