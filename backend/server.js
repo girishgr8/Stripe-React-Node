@@ -1,14 +1,18 @@
+require("dotenv").config();
+
 const express = require("express");
 const cors = require("cors");
-const bodyParser = require("body-parser");
-const stripe = require("stripe")(
-  "sk_test_51OqW0pCmlY4AAamDR4GnpRXmhUm1xplaBbS0YOg9WMXzcO30dS1jHAfV1vE1U1eArK8DFGP6fg0PZA95ahWq28D500YugtqD4G"
-);
+const stripe = require("stripe")(process.env.STRIPE_API_SRECRET_KEY);
 
 const app = express();
 const PORT = process.env.PORT || 4000;
 
-app.use(cors());
+app.use(
+  cors({
+    origin: process.env.FRONTEND_URL,
+    methods: ["GET", "POST"],
+  })
+);
 app.use(express.json());
 
 const calculateTotalOrderAmount = (items) => {
@@ -21,7 +25,7 @@ app.post("/create-payment-intent", async (req, res) => {
   const paymentIntent = await stripe.paymentIntents.create({
     amount: calculateTotalOrderAmount(items),
     currency: "usd",
-    description: "This is for GFG Stripe API Demo",
+    description: "This is for Stripe API Demo",
     automatic_payment_methods: {
       enabled: true,
     },
