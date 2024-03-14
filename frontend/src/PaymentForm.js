@@ -5,7 +5,8 @@ import {
   useElements,
 } from "@stripe/react-stripe-js";
 
-const PAYMENT_SUCESS_URL = process.env.REACT_APP_FRONTEND_URL + "success";
+const PAYMENT_SUCESS_URL =
+  (process.env.REACT_APP_FRONTEND_URL || "http://localhost:3000") + "/success";
 
 const PaymentForm = () => {
   const stripe = useStripe();
