@@ -2,6 +2,12 @@
 
 ![Made-With-React](https://img.shields.io/badge/Made_with-React-informational?style=for-the-badge&logo=react) ![Made-With-NodeJS](https://img.shields.io/badge/Made_with-NodeJS-informational?style=for-the-badge&logo=nodedotjs) ![Made-With-Material_UI](https://img.shields.io/badge/Made_with-Tailwind_CSS-informational?style=for-the-badge&logo=tailwindcss) ![Made-With-MySQL](https://img.shields.io/badge/Made_with-MySQL-informational?style=for-the-badge&logo=mysql)
 
+## Try Out Live:
+
+##### You can try out the Stripe Payments at the URL: [https://stripe-react-node.vercel.app/](https://stripe-react-node.vercel.app/ "Stripe React Node Website")
+
+Use the demo test card numbers from the following URL: [**https://docs.stripe.com/testing?testing-method=card-numbers**](https://docs.stripe.com/testing?testing-method=card-numbers "Stripe Test Cards")
+
 ## About
 
 **"Integrate Stripe Payments with ReactJS and NodeJS"** is a full stack application developed using ReactJS, NodeJS and Tailwind CSS. The user clicks on "Purchase" button on home page and gets redicted to Payment Info page where user enters his card details. Then request is sent to process by the stripe's library and if payment is successful user will get redirect to Payment Success page.
