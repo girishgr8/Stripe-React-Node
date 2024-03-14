@@ -6,7 +6,7 @@
 
 #### You can try out the Stripe Payments at the URL: [https://stripe-react-node.vercel.app/](https://stripe-react-node.vercel.app/ "Stripe React Node Website")
 
-Use the demo test card numbers from the following URL: [**https://docs.stripe.com/testing?testing-method=card-numbers**](https://docs.stripe.com/testing?testing-method=card-numbers "Stripe Test Cards")
+Use the demo test card numbers from the following URL: [https://docs.stripe.com/testing?testing-method=card-numbers](https://docs.stripe.com/testing?testing-method=card-numbers "Stripe Test Cards")
 
 ## About
 
