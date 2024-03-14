@@ -12,8 +12,8 @@ const StripePayment = () => {
   useEffect(() => {
     // Create PaymentIntent as soon as the page loads
     axios
-      .post("http://localhost:4000/create-payment-intent", {
-        items: [{ id: 1, name: "momos", amount: 40.00 }],
+      .post(`${process.env.REACT_APP_BACKEND_URL}create-payment-intent`, {
+        items: [{ id: 1, name: "momos", amount: 40.0 }],
       })
       .then((resp) => setClientSecret(resp.data.clientSecret));
   }, []);
